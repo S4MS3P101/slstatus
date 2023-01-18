@@ -66,10 +66,10 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
 	{ run_command, "^c#282828^^b#d79921^  %s ",	 "wpctl get-volume @DEFAULT_AUDIO_SINK@" },
-	{ wifi_perc, "^c#282828^^b#458588^   %s ",	 "wlan0" },
+	{ wifi_perc, "^c#282828^^b#689d6a^   %s ",	 "wlan0" },
 	{ battery_perc, "^c#282828^^b#b16286^   %s%% ",   "BAT0" },
 	{ battery_state, "%s ",	 "BAT0" },
-	{ datetime, "^c#282828^^b#689d6a^   %s ",	 "%a, %d/%m/%Y" },
+	{ datetime, "^c#282828^^b#458588^   %s ",	 "%a, %d/%m/%Y" },
 	{ datetime, "^c#282828^^b#98971a^  %s ",	 "%R" },
 
 };
